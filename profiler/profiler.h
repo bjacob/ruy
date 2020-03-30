@@ -25,8 +25,8 @@ limitations under the License.
 #include <vector>
 #endif
 
-#include "profiler/instrumentation.h"
-#include "profiler/treeview.h"
+#include "third_party/tensorflow/lite/experimental/ruy/profiler/instrumentation.h"
+#include "third_party/tensorflow/lite/experimental/ruy/profiler/treeview.h"
 
 namespace ruy {
 namespace profiler {

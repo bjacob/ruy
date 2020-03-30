@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "thread_pool.h"
+#include "third_party/tensorflow/lite/experimental/ruy/thread_pool.h"
 
 #include <atomic>
 #include <chrono>              // NOLINT(build/c++11)
@@ -24,8 +24,8 @@ limitations under the License.
 #include <mutex>               // NOLINT(build/c++11)
 #include <thread>              // NOLINT(build/c++11)
 
-#include "check_macros.h"
-#include "wait.h"
+#include "third_party/tensorflow/lite/experimental/ruy/check_macros.h"
+#include "third_party/tensorflow/lite/experimental/ruy/wait.h"
 
 namespace ruy {
 

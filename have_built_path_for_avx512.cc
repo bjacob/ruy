@@ -13,8 +13,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "have_built_path_for.h"
-#include "opt_set.h"
+#include "third_party/tensorflow/lite/experimental/ruy/have_built_path_for.h"
+#include "third_party/tensorflow/lite/experimental/ruy/opt_set.h"
 
 namespace ruy {
 

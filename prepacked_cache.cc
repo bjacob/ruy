@@ -13,10 +13,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "prepacked_cache.h"
+#include "third_party/tensorflow/lite/experimental/ruy/prepacked_cache.h"
 
-#include "matrix.h"
-#include "profiler/instrumentation.h"
+#include "third_party/tensorflow/lite/experimental/ruy/matrix.h"
+#include "third_party/tensorflow/lite/experimental/ruy/profiler/instrumentation.h"
 
 namespace ruy {
 

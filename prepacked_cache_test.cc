@@ -13,13 +13,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "prepacked_cache.h"
+#include "third_party/tensorflow/lite/experimental/ruy/prepacked_cache.h"
 
 #include <thread>  // NOLINT(build/c++11)
 
 #include "testing/base/public/gunit.h"
-#include "ruy.h"
-#include "time.h"
+#include "third_party/tensorflow/lite/experimental/ruy/ruy.h"
+#include "third_party/tensorflow/lite/experimental/ruy/time.h"
 
 namespace ruy {
 namespace {

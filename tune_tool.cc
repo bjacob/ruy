@@ -20,7 +20,7 @@ limitations under the License.
 #include <cstdio>
 #include <thread>  // NOLINT(build/c++11)
 
-#include "tune.h"
+#include "third_party/tensorflow/lite/experimental/ruy/tune.h"
 
 #ifdef _WIN32
 #define getpid() 0

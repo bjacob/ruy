@@ -21,11 +21,11 @@ limitations under the License.
 #include <limits>
 #include <type_traits>
 
-#include "check_macros.h"
-#include "matrix.h"
-#include "opt_set.h"
-#include "path.h"
-#include "platform.h"
+#include "third_party/tensorflow/lite/experimental/ruy/check_macros.h"
+#include "third_party/tensorflow/lite/experimental/ruy/matrix.h"
+#include "third_party/tensorflow/lite/experimental/ruy/opt_set.h"
+#include "third_party/tensorflow/lite/experimental/ruy/path.h"
+#include "third_party/tensorflow/lite/experimental/ruy/platform.h"
 
 #if RUY_OPT_ENABLED(RUY_OPT_PREFETCH_LOAD)
 #define RUY_PREFETCH_LOAD(X) X

@@ -18,8 +18,8 @@ limitations under the License.
 
 #include <cstdint>
 
-#include "block_map.h"
-#include "side_pair.h"
+#include "third_party/tensorflow/lite/experimental/ruy/block_map.h"
+#include "third_party/tensorflow/lite/experimental/ruy/side_pair.h"
 
 namespace ruy {
 

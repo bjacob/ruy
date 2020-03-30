@@ -21,8 +21,8 @@ limitations under the License.
 #include <memory>
 #include <vector>
 
-#include "check_macros.h"
-#include "size_util.h"
+#include "third_party/tensorflow/lite/experimental/ruy/check_macros.h"
+#include "third_party/tensorflow/lite/experimental/ruy/size_util.h"
 
 namespace ruy {
 

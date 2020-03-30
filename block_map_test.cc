@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "block_map.h"
+#include "third_party/tensorflow/lite/experimental/ruy/block_map.h"
 
 #include <cstddef>
 #include <cstdint>
@@ -22,9 +22,9 @@ limitations under the License.
 #include <vector>
 
 #include "testing/base/public/gunit.h"
-#include "cpu_cache_size.h"
-#include "path.h"
-#include "side_pair.h"
+#include "third_party/tensorflow/lite/experimental/ruy/cpu_cache_size.h"
+#include "third_party/tensorflow/lite/experimental/ruy/path.h"
+#include "third_party/tensorflow/lite/experimental/ruy/side_pair.h"
 
 namespace ruy {
 namespace {

@@ -18,7 +18,7 @@ limitations under the License.
 #include <memory>
 #include <vector>
 
-#include "ruy_advanced.h"
+#include "third_party/tensorflow/lite/experimental/ruy/ruy_advanced.h"
 
 // Simple allocator for allocating pre-packed matrices.
 class SimpleAllocator {

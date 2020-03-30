@@ -15,7 +15,7 @@ limitations under the License.
 
 // This test contains more expensive test cases.
 
-#include "test.h"
+#include "third_party/tensorflow/lite/experimental/ruy/test.h"
 
 namespace ruy {
 

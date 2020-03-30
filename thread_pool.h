@@ -21,7 +21,7 @@ limitations under the License.
 
 #include <vector>
 
-#include "blocking_counter.h"
+#include "third_party/tensorflow/lite/experimental/ruy/blocking_counter.h"
 
 namespace ruy {
 

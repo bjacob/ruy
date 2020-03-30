@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "trace.h"
+#include "third_party/tensorflow/lite/experimental/ruy/trace.h"
 
 #include <algorithm>
 #include <cerrno>  // IWYU pragma: keep
@@ -22,9 +22,9 @@ limitations under the License.
 #include <string>
 #include <vector>
 
-#include "check_macros.h"
-#include "side_pair.h"
-#include "time.h"
+#include "third_party/tensorflow/lite/experimental/ruy/check_macros.h"
+#include "third_party/tensorflow/lite/experimental/ruy/side_pair.h"
+#include "third_party/tensorflow/lite/experimental/ruy/time.h"
 
 namespace ruy {
 

@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "detect_x86.h"
+#include "third_party/tensorflow/lite/experimental/ruy/detect_x86.h"
 
 #include <cstdint>
 

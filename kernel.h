@@ -16,15 +16,15 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_EXPERIMENTAL_RUY_KERNEL_H_
 #define TENSORFLOW_LITE_EXPERIMENTAL_RUY_KERNEL_H_
 
-#include "platform.h"
+#include "third_party/tensorflow/lite/experimental/ruy/platform.h"
 
 // IWYU pragma: begin_exports
 #if RUY_PLATFORM(NEON)
-#include "kernel_arm.h"
+#include "third_party/tensorflow/lite/experimental/ruy/kernel_arm.h"
 #elif RUY_PLATFORM(X86)
-#include "kernel_x86.h"
+#include "third_party/tensorflow/lite/experimental/ruy/kernel_x86.h"
 #else
-#include "kernel_common.h"
+#include "third_party/tensorflow/lite/experimental/ruy/kernel_common.h"
 #endif
 // IWYU pragma: end_exports
 

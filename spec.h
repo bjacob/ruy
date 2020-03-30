@@ -19,8 +19,8 @@ limitations under the License.
 #include <limits>
 #include <type_traits>
 
-#include "cpu_cache_size.h"
-#include "matrix.h"
+#include "third_party/tensorflow/lite/experimental/ruy/cpu_cache_size.h"
+#include "third_party/tensorflow/lite/experimental/ruy/matrix.h"
 
 namespace ruy {
 

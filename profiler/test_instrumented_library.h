@@ -16,7 +16,7 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_EXPERIMENTAL_RUY_PROFILER_TEST_INSTRUMENTED_LIBRARY_H_
 #define TENSORFLOW_LITE_EXPERIMENTAL_RUY_PROFILER_TEST_INSTRUMENTED_LIBRARY_H_
 
-#include "profiler/instrumentation.h"
+#include "third_party/tensorflow/lite/experimental/ruy/profiler/instrumentation.h"
 
 void MergeSort(int size, int* data);
 

@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "trmul.h"
+#include "third_party/tensorflow/lite/experimental/ruy/trmul.h"
 
 #include <atomic>
 #include <cstdint>
@@ -21,20 +21,20 @@ limitations under the License.
 #include <memory>
 #include <vector>
 
-#include "allocator.h"
-#include "block_map.h"
-#include "check_macros.h"
-#include "common.h"
-#include "internal_matrix.h"
-#include "matrix.h"
-#include "opt_set.h"
-#include "profiler/instrumentation.h"
-#include "side_pair.h"
-#include "size_util.h"
-#include "spec.h"
-#include "thread_pool.h"
-#include "trace.h"
-#include "tune.h"
+#include "third_party/tensorflow/lite/experimental/ruy/allocator.h"
+#include "third_party/tensorflow/lite/experimental/ruy/block_map.h"
+#include "third_party/tensorflow/lite/experimental/ruy/check_macros.h"
+#include "third_party/tensorflow/lite/experimental/ruy/common.h"
+#include "third_party/tensorflow/lite/experimental/ruy/internal_matrix.h"
+#include "third_party/tensorflow/lite/experimental/ruy/matrix.h"
+#include "third_party/tensorflow/lite/experimental/ruy/opt_set.h"
+#include "third_party/tensorflow/lite/experimental/ruy/profiler/instrumentation.h"
+#include "third_party/tensorflow/lite/experimental/ruy/side_pair.h"
+#include "third_party/tensorflow/lite/experimental/ruy/size_util.h"
+#include "third_party/tensorflow/lite/experimental/ruy/spec.h"
+#include "third_party/tensorflow/lite/experimental/ruy/thread_pool.h"
+#include "third_party/tensorflow/lite/experimental/ruy/trace.h"
+#include "third_party/tensorflow/lite/experimental/ruy/tune.h"
 
 namespace ruy {
 

@@ -95,10 +95,10 @@ limitations under the License.
 #include <type_traits>
 #include <utility>
 
-#include "check_macros.h"
-#include "common.h"
-#include "matrix.h"
-#include "size_util.h"
+#include "third_party/tensorflow/lite/experimental/ruy/check_macros.h"
+#include "third_party/tensorflow/lite/experimental/ruy/common.h"
+#include "third_party/tensorflow/lite/experimental/ruy/matrix.h"
+#include "third_party/tensorflow/lite/experimental/ruy/size_util.h"
 
 namespace ruy {
 

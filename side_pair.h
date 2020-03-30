@@ -16,7 +16,7 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_EXPERIMENTAL_RUY_SIDE_PAIR_H_
 #define TENSORFLOW_LITE_EXPERIMENTAL_RUY_SIDE_PAIR_H_
 
-#include "check_macros.h"
+#include "third_party/tensorflow/lite/experimental/ruy/check_macros.h"
 
 namespace ruy {
 

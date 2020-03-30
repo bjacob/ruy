@@ -13,11 +13,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "context.h"
+#include "third_party/tensorflow/lite/experimental/ruy/context.h"
 
 #include "testing/base/public/gunit.h"
-#include "path.h"
-#include "platform.h"
+#include "third_party/tensorflow/lite/experimental/ruy/path.h"
+#include "third_party/tensorflow/lite/experimental/ruy/platform.h"
 
 namespace ruy {
 namespace {

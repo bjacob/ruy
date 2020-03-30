@@ -16,8 +16,8 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_EXPERIMENTAL_RUY_CPU_CACHE_SIZE_H_
 #define TENSORFLOW_LITE_EXPERIMENTAL_RUY_CPU_CACHE_SIZE_H_
 
-#include "path.h"
-#include "platform.h"
+#include "third_party/tensorflow/lite/experimental/ruy/path.h"
+#include "third_party/tensorflow/lite/experimental/ruy/platform.h"
 
 namespace ruy {
 

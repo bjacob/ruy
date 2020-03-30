@@ -21,18 +21,18 @@ limitations under the License.
 #include <cstddef>
 #include <functional>
 
-#include "check_macros.h"
-#include "context.h"
-#include "dispatch.h"
-#include "internal_matrix.h"
-#include "matrix.h"
-#include "path.h"
-#include "profiler/instrumentation.h"
-#include "side_pair.h"
-#include "spec.h"
-#include "trmul.h"
-#include "trmul_params.h"
-#include "tune.h"
+#include "third_party/tensorflow/lite/experimental/ruy/check_macros.h"
+#include "third_party/tensorflow/lite/experimental/ruy/context.h"
+#include "third_party/tensorflow/lite/experimental/ruy/dispatch.h"
+#include "third_party/tensorflow/lite/experimental/ruy/internal_matrix.h"
+#include "third_party/tensorflow/lite/experimental/ruy/matrix.h"
+#include "third_party/tensorflow/lite/experimental/ruy/path.h"
+#include "third_party/tensorflow/lite/experimental/ruy/profiler/instrumentation.h"
+#include "third_party/tensorflow/lite/experimental/ruy/side_pair.h"
+#include "third_party/tensorflow/lite/experimental/ruy/spec.h"
+#include "third_party/tensorflow/lite/experimental/ruy/trmul.h"
+#include "third_party/tensorflow/lite/experimental/ruy/trmul_params.h"
+#include "third_party/tensorflow/lite/experimental/ruy/tune.h"
 
 namespace ruy {
 

@@ -16,13 +16,13 @@ limitations under the License.
 #include <cstdint>
 #include <cstring>
 
-#include "check_macros.h"
-#include "matrix.h"
-#include "opt_set.h"
-#include "pack.h"
-#include "path.h"
-#include "platform.h"
-#include "profiler/instrumentation.h"
+#include "third_party/tensorflow/lite/experimental/ruy/check_macros.h"
+#include "third_party/tensorflow/lite/experimental/ruy/matrix.h"
+#include "third_party/tensorflow/lite/experimental/ruy/opt_set.h"
+#include "third_party/tensorflow/lite/experimental/ruy/pack.h"
+#include "third_party/tensorflow/lite/experimental/ruy/path.h"
+#include "third_party/tensorflow/lite/experimental/ruy/platform.h"
+#include "third_party/tensorflow/lite/experimental/ruy/profiler/instrumentation.h"
 
 #if RUY_PLATFORM(AVX2) && RUY_OPT_ENABLED(RUY_OPT_INTRINSICS)
 #include <immintrin.h>  // IWYU pragma: keep
@@ -567,7 +567,7 @@ inline void PackFloatAvx2Packer(const float* src_ptr, const float* zerobuf,
   RUY_DCHECK_EQ(PackImplFloatAvx2::Layout::kCols, 8);
   RUY_DCHECK_EQ(PackImplFloatAvx2::Layout::kRows, 1);
 
-  // This packing amounts to tranposition of 8x8 blocks.
+  // This packing amounts to transposition of 8x8 blocks.
   static constexpr int kPackCols = 8;  // Source cols packed together.
   static constexpr int kPackRows = 8;  // Short input is padded.
 

@@ -20,7 +20,7 @@ limitations under the License.
 #include <functional>
 #include <mutex>  //  NOLINT(build/c++11)
 
-#include "time.h"
+#include "third_party/tensorflow/lite/experimental/ruy/time.h"
 
 namespace ruy {
 

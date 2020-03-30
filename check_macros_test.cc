@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "check_macros.h"
+#include "third_party/tensorflow/lite/experimental/ruy/check_macros.h"
 
 #include "testing/base/public/gunit.h"
 

@@ -37,13 +37,13 @@ limitations under the License.
 #include <vector>
 
 #include "testing/base/public/gunit.h"  // IWYU pragma: export
-#include "matrix.h"  // IWYU pragma: export
-#include "platform.h"
-#include "pmu.h"
-#include "ruy.h"
-#include "ruy_advanced.h"
-#include "spec.h"  // IWYU pragma: export
-#include "time.h"
+#include "third_party/tensorflow/lite/experimental/ruy/matrix.h"  // IWYU pragma: export
+#include "third_party/tensorflow/lite/experimental/ruy/platform.h"
+#include "third_party/tensorflow/lite/experimental/ruy/pmu.h"
+#include "third_party/tensorflow/lite/experimental/ruy/ruy.h"
+#include "third_party/tensorflow/lite/experimental/ruy/ruy_advanced.h"
+#include "third_party/tensorflow/lite/experimental/ruy/spec.h"  // IWYU pragma: export
+#include "third_party/tensorflow/lite/experimental/ruy/time.h"
 
 #ifdef RUY_TEST_EXTERNAL_PATHS
 #define EIGEN_USE_THREADS
@@ -55,7 +55,7 @@ limitations under the License.
 #endif
 
 #ifdef RUY_PROFILER
-#include "profiler/profiler.h"
+#include "third_party/tensorflow/lite/experimental/ruy/profiler/profiler.h"
 #endif
 
 namespace ruy {
@@ -252,7 +252,7 @@ Scalar Parametrized(float param) {
 template <typename Scalar>
 struct RandomRangeBounds<Scalar, false> {
   static Scalar GetMinBound(RandomRange range) {
-    static constexpr double offcentredness =
+    static constexpr double offcenteredness =
         0.02;  // Shift lower limit by about 5 for range of 255.
     switch (range) {
       case RandomRange::kGeneral:
@@ -262,8 +262,8 @@ struct RandomRangeBounds<Scalar, false> {
       case RandomRange::kOffCenterAvoidMinValue:
         return 1 + std::numeric_limits<Scalar>::lowest() +
                static_cast<Scalar>(
-                   offcentredness * std::numeric_limits<Scalar>::max() -
-                   offcentredness *
+                   offcenteredness * std::numeric_limits<Scalar>::max() -
+                   offcenteredness *
                        (std::numeric_limits<Scalar>::lowest() + 1));
       case RandomRange::kReasonableSrcZeroPoint:
         return std::numeric_limits<Scalar>::lowest();

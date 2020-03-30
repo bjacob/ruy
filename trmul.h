@@ -26,8 +26,8 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_EXPERIMENTAL_RUY_TRMUL_H_
 #define TENSORFLOW_LITE_EXPERIMENTAL_RUY_TRMUL_H_
 
-#include "context.h"
-#include "trmul_params.h"
+#include "third_party/tensorflow/lite/experimental/ruy/context.h"
+#include "third_party/tensorflow/lite/experimental/ruy/trmul_params.h"
 
 namespace ruy {
 

@@ -18,9 +18,9 @@ limitations under the License.
 #include <thread>
 
 #include "testing/base/public/gunit.h"
-#include "profiler/profiler.h"
-#include "profiler/test_instrumented_library.h"
-#include "profiler/treeview.h"
+#include "third_party/tensorflow/lite/experimental/ruy/profiler/profiler.h"
+#include "third_party/tensorflow/lite/experimental/ruy/profiler/test_instrumented_library.h"
+#include "third_party/tensorflow/lite/experimental/ruy/profiler/treeview.h"
 
 namespace ruy {
 namespace profiler {

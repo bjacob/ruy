@@ -18,11 +18,11 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_EXPERIMENTAL_RUY_RUY_H_
 #define TENSORFLOW_LITE_EXPERIMENTAL_RUY_RUY_H_
 
-#include "context.h"
-#include "dispatch.h"
-#include "matrix.h"
-#include "path.h"
-#include "spec.h"
+#include "third_party/tensorflow/lite/experimental/ruy/context.h"
+#include "third_party/tensorflow/lite/experimental/ruy/dispatch.h"
+#include "third_party/tensorflow/lite/experimental/ruy/matrix.h"
+#include "third_party/tensorflow/lite/experimental/ruy/path.h"
+#include "third_party/tensorflow/lite/experimental/ruy/spec.h"
 
 namespace ruy {
 

@@ -19,11 +19,11 @@ limitations under the License.
 #include <cstddef>
 #include <functional>
 
-#include "context.h"
-#include "matrix.h"
-#include "path.h"
-#include "prepack.h"
-#include "side_pair.h"
+#include "third_party/tensorflow/lite/experimental/ruy/context.h"
+#include "third_party/tensorflow/lite/experimental/ruy/matrix.h"
+#include "third_party/tensorflow/lite/experimental/ruy/path.h"
+#include "third_party/tensorflow/lite/experimental/ruy/prepack.h"
+#include "third_party/tensorflow/lite/experimental/ruy/side_pair.h"
 
 namespace ruy {
 

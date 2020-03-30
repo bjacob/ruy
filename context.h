@@ -20,12 +20,12 @@ limitations under the License.
 #include <memory>
 #include <vector>
 
-#include "allocator.h"
-#include "path.h"
-#include "prepacked_cache.h"
-#include "thread_pool.h"
-#include "trace.h"
-#include "tune.h"
+#include "third_party/tensorflow/lite/experimental/ruy/allocator.h"
+#include "third_party/tensorflow/lite/experimental/ruy/path.h"
+#include "third_party/tensorflow/lite/experimental/ruy/prepacked_cache.h"
+#include "third_party/tensorflow/lite/experimental/ruy/thread_pool.h"
+#include "third_party/tensorflow/lite/experimental/ruy/trace.h"
+#include "third_party/tensorflow/lite/experimental/ruy/tune.h"
 
 namespace ruy {
 

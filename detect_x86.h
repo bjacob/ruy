@@ -16,7 +16,7 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_EXPERIMENTAL_RUY_DETECT_X86_H_
 #define TENSORFLOW_LITE_EXPERIMENTAL_RUY_DETECT_X86_H_
 
-#include "platform.h"
+#include "third_party/tensorflow/lite/experimental/ruy/platform.h"
 
 namespace ruy {
 

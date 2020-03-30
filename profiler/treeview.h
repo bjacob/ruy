@@ -23,7 +23,7 @@ limitations under the License.
 #include <memory>
 #include <vector>
 
-#include "profiler/instrumentation.h"
+#include "third_party/tensorflow/lite/experimental/ruy/profiler/instrumentation.h"
 
 namespace ruy {
 namespace profiler {

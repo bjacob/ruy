@@ -16,11 +16,11 @@ limitations under the License.
 #include <algorithm>
 #include <cstdint>
 
-#include "check_macros.h"
-#include "kernel.h"
-#include "opt_set.h"
-#include "platform.h"
-#include "profiler/instrumentation.h"
+#include "third_party/tensorflow/lite/experimental/ruy/check_macros.h"
+#include "third_party/tensorflow/lite/experimental/ruy/kernel.h"
+#include "third_party/tensorflow/lite/experimental/ruy/opt_set.h"
+#include "third_party/tensorflow/lite/experimental/ruy/platform.h"
+#include "third_party/tensorflow/lite/experimental/ruy/profiler/instrumentation.h"
 
 #if RUY_PLATFORM(AVX512) && RUY_OPT_ENABLED(RUY_OPT_ASM)
 #include <immintrin.h>  // IWYU pragma: keep

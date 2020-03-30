@@ -15,7 +15,7 @@ limitations under the License.
 
 #ifdef RUY_PROFILER
 
-#include "profiler/treeview.h"
+#include "third_party/tensorflow/lite/experimental/ruy/profiler/treeview.h"
 
 #include <algorithm>
 #include <cstdio>

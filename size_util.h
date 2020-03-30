@@ -18,7 +18,7 @@ limitations under the License.
 
 #include <type_traits>
 
-#include "check_macros.h"
+#include "third_party/tensorflow/lite/experimental/ruy/check_macros.h"
 
 #ifdef _WIN32
 #include <intrin.h>

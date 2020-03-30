@@ -18,8 +18,8 @@ limitations under the License.
 
 #include <cstdint>
 
-#include "platform.h"
-#include "size_util.h"
+#include "third_party/tensorflow/lite/experimental/ruy/platform.h"
+#include "third_party/tensorflow/lite/experimental/ruy/size_util.h"
 
 namespace ruy {
 

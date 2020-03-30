@@ -40,7 +40,7 @@ limitations under the License.
  * file - in actual code for (A) and in a comment for (B).
  */
 
-#include "detect_arm.h"
+#include "third_party/tensorflow/lite/experimental/ruy/detect_arm.h"
 
 #if defined __linux__ && defined __aarch64__
 #include <sys/auxv.h>

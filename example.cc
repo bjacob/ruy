@@ -16,7 +16,7 @@ limitations under the License.
 #include <cstdint>
 #include <iostream>
 
-#include "ruy.h"
+#include "third_party/tensorflow/lite/experimental/ruy/ruy.h"
 
 void ExampleMulFloat(ruy::Context *context) {
   const float lhs_data[] = {1, 2, 3, 4};

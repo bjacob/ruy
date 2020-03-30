@@ -22,9 +22,9 @@ limitations under the License.
 #include <queue>
 #include <vector>
 
-#include "allocator.h"
-#include "matrix.h"
-#include "time.h"
+#include "third_party/tensorflow/lite/experimental/ruy/allocator.h"
+#include "third_party/tensorflow/lite/experimental/ruy/matrix.h"
+#include "third_party/tensorflow/lite/experimental/ruy/time.h"
 
 namespace ruy {
 

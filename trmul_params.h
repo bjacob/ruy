@@ -16,9 +16,9 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_EXPERIMENTAL_RUY_TRMUL_PARAMS_H_
 #define TENSORFLOW_LITE_EXPERIMENTAL_RUY_TRMUL_PARAMS_H_
 
-#include "internal_matrix.h"
-#include "side_pair.h"
-#include "tune.h"
+#include "third_party/tensorflow/lite/experimental/ruy/internal_matrix.h"
+#include "third_party/tensorflow/lite/experimental/ruy/side_pair.h"
+#include "third_party/tensorflow/lite/experimental/ruy/tune.h"
 
 namespace ruy {
 

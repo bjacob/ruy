@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "block_map.h"
+#include "third_party/tensorflow/lite/experimental/ruy/block_map.h"
 
 #include <algorithm>
 #include <cstdint>
@@ -24,10 +24,10 @@ limitations under the License.
 #include <string>
 #endif
 
-#include "check_macros.h"
-#include "opt_set.h"
-#include "profiler/instrumentation.h"
-#include "size_util.h"
+#include "third_party/tensorflow/lite/experimental/ruy/check_macros.h"
+#include "third_party/tensorflow/lite/experimental/ruy/opt_set.h"
+#include "third_party/tensorflow/lite/experimental/ruy/profiler/instrumentation.h"
+#include "third_party/tensorflow/lite/experimental/ruy/size_util.h"
 
 namespace ruy {
 

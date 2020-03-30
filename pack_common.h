@@ -85,15 +85,15 @@ limitations under the License.
 
 #include <cstdint>
 
-#include "check_macros.h"
-#include "common.h"
-#include "internal_matrix.h"
-#include "matrix.h"
-#include "opt_set.h"
-#include "path.h"
-#include "platform.h"
-#include "profiler/instrumentation.h"
-#include "tune.h"
+#include "third_party/tensorflow/lite/experimental/ruy/check_macros.h"
+#include "third_party/tensorflow/lite/experimental/ruy/common.h"
+#include "third_party/tensorflow/lite/experimental/ruy/internal_matrix.h"
+#include "third_party/tensorflow/lite/experimental/ruy/matrix.h"
+#include "third_party/tensorflow/lite/experimental/ruy/opt_set.h"
+#include "third_party/tensorflow/lite/experimental/ruy/path.h"
+#include "third_party/tensorflow/lite/experimental/ruy/platform.h"
+#include "third_party/tensorflow/lite/experimental/ruy/profiler/instrumentation.h"
+#include "third_party/tensorflow/lite/experimental/ruy/tune.h"
 
 namespace ruy {
 

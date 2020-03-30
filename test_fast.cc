@@ -17,7 +17,7 @@ limitations under the License.
 
 #include <vector>
 
-#include "test.h"
+#include "third_party/tensorflow/lite/experimental/ruy/test.h"
 
 namespace ruy {
 

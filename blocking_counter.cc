@@ -13,10 +13,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "blocking_counter.h"
+#include "third_party/tensorflow/lite/experimental/ruy/blocking_counter.h"
 
-#include "check_macros.h"
-#include "wait.h"
+#include "third_party/tensorflow/lite/experimental/ruy/check_macros.h"
+#include "third_party/tensorflow/lite/experimental/ruy/wait.h"
 
 namespace ruy {
 

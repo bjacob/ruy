@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "size_util.h"
+#include "third_party/tensorflow/lite/experimental/ruy/size_util.h"
 
 #include <cstddef>
 #include <cstdint>

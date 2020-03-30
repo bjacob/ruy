@@ -131,7 +131,7 @@ cc_library(
         ":opt_set",
         ":platform",
         ":time",
-        "//profiler:instrumentation",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:instrumentation",
     ],
 )
 
@@ -209,7 +209,7 @@ cc_library(
         ":path",
         ":side_pair",
         ":size_util",
-        "//profiler:instrumentation",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:instrumentation",
     ],
 )
 
@@ -383,7 +383,7 @@ cc_library(
         ":size_util",
         ":spec",
         ":tune",
-        "//profiler:instrumentation",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:instrumentation",
     ],
 )
 
@@ -405,7 +405,7 @@ cc_library(
         ":path",
         ":platform",
         ":tune",
-        "//profiler:instrumentation",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:instrumentation",
     ],
 )
 
@@ -421,7 +421,7 @@ cc_library(
         ":kernel_common",
         ":opt_set",
         ":platform",
-        "//profiler:instrumentation",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:instrumentation",
     ],
 )
 
@@ -436,7 +436,7 @@ cc_library(
         ":opt_set",
         ":pack_common",
         ":platform",
-        "//profiler:instrumentation",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:instrumentation",
     ],
 )
 
@@ -456,7 +456,7 @@ cc_library(
         ":kernel_common",
         ":opt_set",
         ":platform",
-        "//profiler:instrumentation",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:instrumentation",
     ],
 )
 
@@ -473,7 +473,7 @@ cc_library(
         ":pack_common",
         ":path",
         ":platform",
-        "//profiler:instrumentation",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:instrumentation",
     ],
 )
 
@@ -509,7 +509,7 @@ cc_library(
         ":kernel_common",
         ":opt_set",
         ":platform",
-        "//profiler:instrumentation",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:instrumentation",
     ],
 )
 
@@ -526,7 +526,7 @@ cc_library(
         ":pack_common",
         ":path",
         ":platform",
-        "//profiler:instrumentation",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:instrumentation",
     ],
 )
 
@@ -566,7 +566,7 @@ cc_library(
         ":kernel_common",
         ":opt_set",
         ":platform",
-        "//profiler:instrumentation",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:instrumentation",
     ],
 )
 
@@ -583,7 +583,7 @@ cc_library(
         ":pack_common",
         ":path",
         ":platform",
-        "//profiler:instrumentation",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:instrumentation",
     ],
 )
 
@@ -623,7 +623,7 @@ cc_library(
         ":kernel_common",
         ":opt_set",
         ":platform",
-        "//profiler:instrumentation",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:instrumentation",
     ],
 )
 
@@ -640,7 +640,7 @@ cc_library(
         ":pack_common",
         ":path",
         ":platform",
-        "//profiler:instrumentation",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:instrumentation",
     ],
 )
 
@@ -685,7 +685,7 @@ cc_library(
         ":size_util",
         ":spec",
         ":tune",
-        "//profiler:instrumentation",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:instrumentation",
     ],
 )
 
@@ -711,7 +711,7 @@ cc_library(
         ":path",
         ":platform",
         ":tune",
-        "//profiler:instrumentation",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:instrumentation",
     ],
 )
 
@@ -796,7 +796,7 @@ cc_library(
         ":trace",
         ":trmul_params",
         ":tune",
-        "//profiler:instrumentation",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:instrumentation",
     ],
 )
 
@@ -829,7 +829,7 @@ cc_library(
         ":trmul",
         ":trmul_params",
         ":tune",
-        "//profiler:instrumentation",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:instrumentation",
     ],
 )
 
@@ -877,7 +877,7 @@ cc_library(
         ":time",
         "@com_google_googletest//:gtest",
         ":platform",
-        "//profiler:profiler",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:profiler",
     ] + ruy_test_ext_deps(),
 )
 
@@ -894,8 +894,8 @@ ruy_benchmark(
         ("i8", "i8", "i32", "i32"),
     ],
     deps = [
-        ":test_lib",
-        "//profiler:instrumentation",
+        "//third_party/tensorflow/lite/experimental/ruy:test_lib",
+        "//third_party/tensorflow/lite/experimental/ruy/profiler:instrumentation",
     ],
 )
 
@@ -916,7 +916,7 @@ ruy_test(
     ],
     deps = [
         "@com_google_googletest//:gtest_main",
-        ":test_lib",
+        "//third_party/tensorflow/lite/experimental/ruy:test_lib",
     ],
 )
 
@@ -934,7 +934,7 @@ ruy_test(
     tags = ["slow"],
     deps = [
         "@com_google_googletest//:gtest_main",
-        ":test_lib",
+        "//third_party/tensorflow/lite/experimental/ruy:test_lib",
     ],
 )
 
@@ -949,6 +949,6 @@ ruy_test(
     ],
     deps = [
         "@com_google_googletest//:gtest_main",
-        ":test_lib",
+        "//third_party/tensorflow/lite/experimental/ruy:test_lib",
     ],
 )

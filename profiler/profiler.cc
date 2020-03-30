@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "profiler/profiler.h"
+#include "third_party/tensorflow/lite/experimental/ruy/profiler/profiler.h"
 
 #ifdef RUY_PROFILER
 #include <atomic>
@@ -24,8 +24,8 @@ limitations under the License.
 #include <vector>
 #endif
 
-#include "profiler/instrumentation.h"
-#include "profiler/treeview.h"
+#include "third_party/tensorflow/lite/experimental/ruy/profiler/instrumentation.h"
+#include "third_party/tensorflow/lite/experimental/ruy/profiler/treeview.h"
 
 namespace ruy {
 namespace profiler {

@@ -20,7 +20,7 @@ limitations under the License.
 #include <cstdint>  // IWYU pragma: keep
 #include <type_traits>
 
-#include "check_macros.h"
+#include "third_party/tensorflow/lite/experimental/ruy/check_macros.h"
 
 namespace ruy {
 

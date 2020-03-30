@@ -13,13 +13,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "context.h"
+#include "third_party/tensorflow/lite/experimental/ruy/context.h"
 
-#include "check_macros.h"
-#include "detect_arm.h"
-#include "detect_x86.h"
-#include "have_built_path_for.h"
-#include "platform.h"
+#include "third_party/tensorflow/lite/experimental/ruy/check_macros.h"
+#include "third_party/tensorflow/lite/experimental/ruy/detect_arm.h"
+#include "third_party/tensorflow/lite/experimental/ruy/detect_x86.h"
+#include "third_party/tensorflow/lite/experimental/ruy/have_built_path_for.h"
+#include "third_party/tensorflow/lite/experimental/ruy/platform.h"
 
 namespace ruy {
 
